@@ -17,12 +17,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,5 +29,8 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.5.0",
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1"
+  }
 }
